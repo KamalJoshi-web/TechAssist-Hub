@@ -1,6 +1,6 @@
 TechAssist Hub - Your Personal Tech Support Companion
 
-TechAssist Hub is a personal web application project developed using React.js, Material-UI, and React Router DOM. It serves as your dedicated tech support companion, designed to provide you with a seamless and organized experience while exploring various tech topics.
+TechAssist Hub is a personal web application project developed using React.js, Sass, and React Router DOM. It serves as your dedicated tech support companion, designed to provide you with a seamless and organized experience while exploring various tech topics.
 
 \## Introduction
 
@@ -34,7 +34,6 @@ TechAssist Hub is a passion project aimed at creating a personalized tech suppor
 
 \- React.js: A JavaScript library for building user interfaces.
 
-\- Material-UI: A popular React UI framework that offers pre-designed components and styling.
 
 \- React Router DOM: Declarative routing for React applications, enabling dynamic navigation.
 
