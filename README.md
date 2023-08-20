@@ -18,7 +18,7 @@ TechAssist Hub is a passion project aimed at creating a personalized tech suppor
 
 \## Installation
 
-1\. Clone the repository: `git clone https://github.com/your-username/techassist-hub.git`
+1\. Clone the repository: `git clone https://github.com/KamalJoshi-web/techassist-hub.git`
 
 2\. Navigate to the project directory: `cd techassist-hub`
 
