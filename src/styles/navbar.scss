@@ -1,0 +1,28 @@
+@use "_colors" as col;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  position: sticky;
+  background-color: col.$offGrey;
+  top: 0;
+  z-index: 100;
+  gap: 1rem;
+  > h1 {
+    color: col.$offBlack;
+    > span {
+      color: col.$lightRed;
+    }
+  }
+  > div {
+    > a {
+      margin-inline: 8px;
+      color: col.$purple;
+      &:hover {
+        color: col.$smokeyGrey;
+      }
+    }
+  }
+}

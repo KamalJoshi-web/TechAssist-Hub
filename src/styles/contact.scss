@@ -1,0 +1,51 @@
+@use "_colors" as col;
+.contact {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: col.$offWhite;
+  background-image: url(../assets/homebg.png);
+
+  > form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 1rem;
+    padding-block: 3rem;
+    border-radius: 15px;
+    > h2 {
+      font-size: 2.75rem;
+      color: col.$offBlack;
+      text-align: center;
+    }
+    > input {
+      padding: 1rem;
+
+      border-radius: 15px;
+      border: 1px solid col.$smokeyGrey;
+      font-weight: 700;
+    }
+    > button {
+      background-color: col.$purple;
+      border: none;
+      padding: 1.2rem;
+      font-size: 1rem;
+      color: col.$white;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      cursor: pointer;
+      transition: 0.2s ease-in;
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+  }
+}
